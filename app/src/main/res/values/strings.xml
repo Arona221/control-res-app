@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">control-res-app</string>
+    <string name="se_connecter">Se connecter</string>
 </resources>

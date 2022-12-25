@@ -2724,6 +2724,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id alBtnConnect
+id alId
+id alPassword
 id alertTitle
 id aligned
 id all
@@ -2791,6 +2794,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2974,6 +2978,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id outline
 id outward
@@ -3087,6 +3093,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3259,6 +3266,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
 layout activity_login
 layout activity_splash
 layout custom_dialog
@@ -3478,6 +3486,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string se_connecter
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

@@ -23,6 +23,9 @@ drawable resto1
 drawable splash_image
 font nunito
 font nunito_semibold
+id alBtnConnect
+id alId
+id alPassword
 id background_image
 id fragment_loginBtnConnect
 id fragment_loginNumCarte
@@ -31,11 +34,13 @@ id imageView
 id logo_image
 id title_text
 id view
+layout activity_home
 layout activity_login
 layout activity_splash
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string se_connecter
 style Theme.Controlresapp
 xml backup_rules
 xml data_extraction_rules

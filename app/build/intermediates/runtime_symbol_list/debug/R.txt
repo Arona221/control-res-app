@@ -2723,6 +2723,9 @@ int id action_text 0x7f0a0043
 int id actions 0x7f0a0044
 int id activity_chooser_view_content 0x7f0a0045
 int id add 0x7f0a0046
+int id alBtnConnect 0x7f0a01e4
+int id alId 0x7f0a01e5
+int id alPassword 0x7f0a01e6
 int id alertTitle 0x7f0a0047
 int id aligned 0x7f0a0048
 int id all 0x7f0a0049
@@ -2790,6 +2793,7 @@ int id currentState 0x7f0a0086
 int id custom 0x7f0a0087
 int id customPanel 0x7f0a0088
 int id cut 0x7f0a0089
+int id dataBinding 0x7f0a01e7
 int id date_picker_actions 0x7f0a008a
 int id decelerate 0x7f0a008b
 int id decelerateAndComplete 0x7f0a008c
@@ -2973,6 +2977,8 @@ int id notification_main_column 0x7f0a013d
 int id notification_main_column_container 0x7f0a013e
 int id off 0x7f0a013f
 int id on 0x7f0a0140
+int id onAttachStateChangeListener 0x7f0a01e8
+int id onDateChanged 0x7f0a01e9
 int id onInterceptTouchReturnSwipe 0x7f0a0141
 int id outline 0x7f0a0142
 int id outward 0x7f0a0143
@@ -3086,6 +3092,7 @@ int id textSpacerNoButtons 0x7f0a01ae
 int id textSpacerNoTitle 0x7f0a01af
 int id textStart 0x7f0a01b0
 int id textTop 0x7f0a01b1
+int id textWatcher 0x7f0a01ea
 int id text_input_end_icon 0x7f0a01b2
 int id text_input_error_icon 0x7f0a01b3
 int id text_input_start_icon 0x7f0a01b4
@@ -3258,6 +3265,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0d0018
 int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
+int layout activity_home 0x7f0d0068
 int layout activity_login 0x7f0d001c
 int layout activity_splash 0x7f0d001d
 int layout custom_dialog 0x7f0d001e
@@ -3477,6 +3485,7 @@ int string path_password_eye 0x7f110088
 int string path_password_eye_mask_strike_through 0x7f110089
 int string path_password_eye_mask_visible 0x7f11008a
 int string path_password_strike_through 0x7f11008b
+int string se_connecter 0x7f11008e
 int string search_menu_title 0x7f11008c
 int string status_bar_notification_info_overflow 0x7f11008d
 int style AlertDialog_AppCompat 0x7f120000

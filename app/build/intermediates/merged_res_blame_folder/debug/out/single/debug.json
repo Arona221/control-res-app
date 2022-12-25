@@ -1,114 +1,118 @@
 [
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_activity_login.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\activity_login.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/layout_activity_splash.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_activity_login.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/activity_login.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_login_background.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\login_background.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\circle_background.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/font_nunito_semibold.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/font/nunito_semibold.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.arona.control_res_app-merged_res-31:/layout_activity_home.xml.flat",
+        "source": "com.arona.control_res_app-main-33:/layout/activity_home.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_login_background.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/login_background.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_activity_splash.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\activity_splash.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.arona.control_res_app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\font_nunito.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\font\\nunito.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_circle_background.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/circle_background.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable-v24_activity_login.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable-v24\\activity_login.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_rectangle_background.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/rectangle_background.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_resto1.png.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\resto1.png"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_resto1.png.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/resto1.png"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_splash_image.png.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/splash_image.png"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\font_nunito_semibold.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\font\\nunito_semibold.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-pngs-26:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable-v24_activity_login.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable-v24/activity_login.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_splash_image.png.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\splash_image.png"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/drawable_activity_splash.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/drawable/activity_splash.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\drawable_rectangle_background.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\drawable\\rectangle_background.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.arona.control_res_app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/layout_activity_login.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/layout/activity_login.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.arona.control_res_app-merged_res-29:/font_nunito.xml.flat",
-        "source": "com.arona.control_res_app-main-31:/font/nunito.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     }
 ]
