@@ -4,25 +4,65 @@ package com.arona.control_res_app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.arona.control_res_app.R;
+import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
 
-  private ActivityHomeBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final TextView date;
+
+  @NonNull
+  public final DrawerLayout drawerLayout;
+
+  @NonNull
+  public final NavigationView navigationView;
+
+  @NonNull
+  public final TextView repas;
+
+  @NonNull
+  public final TextView scaner;
+
+  @NonNull
+  public final MaterialToolbar topAppBar;
+
+  @NonNull
+  public final View view;
+
+  @NonNull
+  public final View view1;
+
+  private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull TextView date,
+      @NonNull DrawerLayout drawerLayout, @NonNull NavigationView navigationView,
+      @NonNull TextView repas, @NonNull TextView scaner, @NonNull MaterialToolbar topAppBar,
+      @NonNull View view, @NonNull View view1) {
     this.rootView = rootView;
+    this.date = date;
+    this.drawerLayout = drawerLayout;
+    this.navigationView = navigationView;
+    this.repas = repas;
+    this.scaner = scaner;
+    this.topAppBar = topAppBar;
+    this.view = view;
+    this.view1 = view1;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +83,58 @@ public final class ActivityHomeBinding implements ViewBinding {
 
   @NonNull
   public static ActivityHomeBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.date;
+      TextView date = ViewBindings.findChildViewById(rootView, id);
+      if (date == null) {
+        break missingId;
+      }
 
-    return new ActivityHomeBinding((ConstraintLayout) rootView);
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+
+      id = R.id.navigation_view;
+      NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
+      if (navigationView == null) {
+        break missingId;
+      }
+
+      id = R.id.repas;
+      TextView repas = ViewBindings.findChildViewById(rootView, id);
+      if (repas == null) {
+        break missingId;
+      }
+
+      id = R.id.scaner;
+      TextView scaner = ViewBindings.findChildViewById(rootView, id);
+      if (scaner == null) {
+        break missingId;
+      }
+
+      id = R.id.topAppBar;
+      MaterialToolbar topAppBar = ViewBindings.findChildViewById(rootView, id);
+      if (topAppBar == null) {
+        break missingId;
+      }
+
+      id = R.id.view;
+      View view = ViewBindings.findChildViewById(rootView, id);
+      if (view == null) {
+        break missingId;
+      }
+
+      id = R.id.view1;
+      View view1 = ViewBindings.findChildViewById(rootView, id);
+      if (view1 == null) {
+        break missingId;
+      }
+
+      return new ActivityHomeBinding((DrawerLayout) rootView, date, drawerLayout, navigationView,
+          repas, scaner, topAppBar, view, view1);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

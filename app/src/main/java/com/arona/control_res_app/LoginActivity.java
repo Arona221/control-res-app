@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
     ActivityLoginBinding mBinding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setIpAdd("192.168.56.1");
+        setIpAdd("10.153.9.62");
         mBinding = ActivityLoginBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(mBinding.getRoot());
