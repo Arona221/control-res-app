@@ -22,19 +22,22 @@ public final class ActivityHomeBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
-  public final TextView date;
+  public final TextView ahBtnScaner;
+
+  @NonNull
+  public final TextView ahTextViewDate;
+
+  @NonNull
+  public final TextView ahTextViewNbrTickets;
+
+  @NonNull
+  public final TextView ahTextViewRepas;
 
   @NonNull
   public final DrawerLayout drawerLayout;
 
   @NonNull
   public final NavigationView navigationView;
-
-  @NonNull
-  public final TextView repas;
-
-  @NonNull
-  public final TextView scaner;
 
   @NonNull
   public final MaterialToolbar topAppBar;
@@ -45,16 +48,18 @@ public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
   public final View view1;
 
-  private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull TextView date,
-      @NonNull DrawerLayout drawerLayout, @NonNull NavigationView navigationView,
-      @NonNull TextView repas, @NonNull TextView scaner, @NonNull MaterialToolbar topAppBar,
+  private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull TextView ahBtnScaner,
+      @NonNull TextView ahTextViewDate, @NonNull TextView ahTextViewNbrTickets,
+      @NonNull TextView ahTextViewRepas, @NonNull DrawerLayout drawerLayout,
+      @NonNull NavigationView navigationView, @NonNull MaterialToolbar topAppBar,
       @NonNull View view, @NonNull View view1) {
     this.rootView = rootView;
-    this.date = date;
+    this.ahBtnScaner = ahBtnScaner;
+    this.ahTextViewDate = ahTextViewDate;
+    this.ahTextViewNbrTickets = ahTextViewNbrTickets;
+    this.ahTextViewRepas = ahTextViewRepas;
     this.drawerLayout = drawerLayout;
     this.navigationView = navigationView;
-    this.repas = repas;
-    this.scaner = scaner;
     this.topAppBar = topAppBar;
     this.view = view;
     this.view1 = view1;
@@ -87,9 +92,27 @@ public final class ActivityHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.date;
-      TextView date = ViewBindings.findChildViewById(rootView, id);
-      if (date == null) {
+      id = R.id.ahBtnScaner;
+      TextView ahBtnScaner = ViewBindings.findChildViewById(rootView, id);
+      if (ahBtnScaner == null) {
+        break missingId;
+      }
+
+      id = R.id.ahTextViewDate;
+      TextView ahTextViewDate = ViewBindings.findChildViewById(rootView, id);
+      if (ahTextViewDate == null) {
+        break missingId;
+      }
+
+      id = R.id.ahTextViewNbrTickets;
+      TextView ahTextViewNbrTickets = ViewBindings.findChildViewById(rootView, id);
+      if (ahTextViewNbrTickets == null) {
+        break missingId;
+      }
+
+      id = R.id.ahTextViewRepas;
+      TextView ahTextViewRepas = ViewBindings.findChildViewById(rootView, id);
+      if (ahTextViewRepas == null) {
         break missingId;
       }
 
@@ -98,18 +121,6 @@ public final class ActivityHomeBinding implements ViewBinding {
       id = R.id.navigation_view;
       NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
       if (navigationView == null) {
-        break missingId;
-      }
-
-      id = R.id.repas;
-      TextView repas = ViewBindings.findChildViewById(rootView, id);
-      if (repas == null) {
-        break missingId;
-      }
-
-      id = R.id.scaner;
-      TextView scaner = ViewBindings.findChildViewById(rootView, id);
-      if (scaner == null) {
         break missingId;
       }
 
@@ -131,8 +142,9 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((DrawerLayout) rootView, date, drawerLayout, navigationView,
-          repas, scaner, topAppBar, view, view1);
+      return new ActivityHomeBinding((DrawerLayout) rootView, ahBtnScaner, ahTextViewDate,
+          ahTextViewNbrTickets, ahTextViewRepas, drawerLayout, navigationView, topAppBar, view,
+          view1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,22 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-31:\\layout\\activity_home.xml",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-34:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-32:\\layout\\layout_dialog.xml",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-35:\\layout\\layout_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-31:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-34:\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-32:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-35:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-31:\\layout\\nav_header.xml",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-34:\\layout\\nav_header.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-32:\\layout\\drawpo.xml",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-35:\\layout\\drawpo.xml"
     },
     {
-        "merged": "com.arona.control_res_app-mergeDebugResources-31:/layout/activity_home.xml",
-        "source": "com.arona.control_res_app-main-34:/layout/activity_home.xml"
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-32:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-35:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-31:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\hp 840\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-34:\\layout\\activity_login.xml"
+        "merged": "com.arona.control_res_app-mergeDebugResources-32:/layout/activity_home.xml",
+        "source": "com.arona.control_res_app-main-35:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-32:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-35:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-mergeDebugResources-32:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\B1707D\\.gradle\\daemon\\7.4\\com.arona.control_res_app-main-35:\\layout\\nav_header.xml"
     }
 ]

@@ -37,15 +37,15 @@ public class LoginActivity extends AppCompatActivity {
     ActivityLoginBinding mBinding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setIpAdd("10.153.9.62");
+        setIpAdd("192.168.56.1");
         mBinding = ActivityLoginBinding.inflate(getLayoutInflater());
         super.onCreate(savedInstanceState);
         setContentView(mBinding.getRoot());
         mBinding.alBtnConnect.setOnClickListener(v -> {
             {
                 String url = "http://"+LoginActivity.getIpAdd()+"/memoir/server/logControler.php";
-                String string_NumCard_or_email = (String) Objects.requireNonNull(mBinding.alId.getText()).toString();
-                String string_Password = (String) Objects.requireNonNull(mBinding.alPassword.getText()).toString();
+                String string_NumCard_or_email = Objects.requireNonNull(mBinding.alId.getText()).toString();
+                String string_Password = Objects.requireNonNull(mBinding.alPassword.getText()).toString();
                 if (string_Password.isEmpty()) {
                     mBinding.alId.setError("vide");
                     mBinding.alId.setFocusable(true);
@@ -54,17 +54,19 @@ public class LoginActivity extends AppCompatActivity {
                 else {
                     StringRequest stringRequest = new StringRequest(Request.Method.POST, url, response -> {
                         JSONObject jsonObject;
-                        JSONObject jsonObject1 = null;
+                        JSONObject jsonObject1;
                         try {
                             jsonObject = new JSONObject(response);
                             String message = jsonObject.getString("message");
-                            Log.d("eeeeeeeeeeeeeee", "onCreate: "+jsonObject.toString());
                             if (message.equals("message_error")) {
                                 new Tools(LoginActivity.this).displayAlert("erreur", "Verifiez vos informations");
                             } else {
                                 Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                                Bundle bundle = new Bundle();
                                 jsonObject1 = jsonObject.getJSONObject("content");
+                                int id_controler = (int) jsonObject1.get("id");
+                                String nomResto = (String) jsonObject1.get("nomRest");
+                                intent.putExtra("id_controler",id_controler);
+                                intent.putExtra("nomRest",nomResto);
                                 startActivity(intent);
                             }
                         } catch (JSONException e) {

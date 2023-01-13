@@ -48,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Identifiant du controleur "
                 app:hintAnimationEnabled="true"
-                app:hintTextColor="@color/colorPrimary" />
+                app:hintTextColor="@color/colorPrimary"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout

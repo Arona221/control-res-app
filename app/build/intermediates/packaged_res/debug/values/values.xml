@@ -28,8 +28,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="underline">#D8D6D6</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="_24">24</string>
     <string name="app_name">control-res-app</string>
+    <string name="confirmer">confirmer</string>
+    <string name="continer_a_scanner">continer a scanner</string>
+    <string name="date_23_12_2022">Date:23/12/2022</string>
+    <string name="nombre_de_tickets">Nombre de tickets</string>
+    <string name="repas">Repas</string>
     <string name="se_connecter">Se connecter</string>
+    <string name="voir_les_detail">voir les detail</string>
     <style name="Theme.Controlresapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">#FA4A0C</item>
